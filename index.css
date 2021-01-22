@@ -1,0 +1,397 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* CSS CHO PHẦN HIỂN THỊ THÔNG TIN TƯỚNG THEO LANE */
+
+/* chỗ này là danh sách tướng nhé */
+#map {
+    padding-left: 50px;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+body{
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+.tung-cai-tieu-de {
+    padding: 10px;
+    width: 295px;
+    text-align: center;
+    background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+    color: #E0E0E0;
+    border-radius: 15px;
+    /* border: 2px solid whitesmoke; */
+}
+
+.info-tuong {
+    text-align: center;
+    color: #E0E0E0;
+}
+
+.info-tuong img{
+    margin: 5px;
+    border-radius: 500px;
+    border: 2px solid whitesmoke;
+    height: 80px;
+    width: 80px;
+}
+.info-tuong a:hover{
+    color: red;
+    text-decoration: none;
+}
+.info-tuong a{
+    color: #E0E0E0;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+
+/* CSS CHO PHẦN MATCH UP */
+/* đương nhiên trên cùng là phần Header rồi */
+#header3 {
+    display: flex;
+    flex-direction: column;
+    color: #E0E0E0;
+}
+
+#firstline{
+    display: flex;
+    flex-direction: row;
+}
+
+#firstline img{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#header3 nav {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    color: #E0E0E0;
+}
+
+#header3 nav p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#secondline{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    /* background-color: #121212; */
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+#secondline p{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #E0E0E0;
+    padding-left: 20px;
+}
+
+#secondline img{
+    border-radius: 300px;
+    border: 5px solid #E0E0E0;
+    margin: 10px;
+    margin-right: 100px;
+}
+
+#body3 {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+
+/* phần kèo tướng match up nha */
+#counter-encounter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#counter {
+    display: flex;
+    flex-direction: column;
+}
+.tieude{
+    font-size: larger;
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+    color: #E0E0E0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.counter-champion{
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.counter-champion img {
+    padding-right: 20px;
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.counter-champion p {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+#encounter {
+    display: flex;
+    flex-direction: column;
+}
+
+.encounter-champion{
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    background-image: linear-gradient(to left, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.encounter-champion img {
+    padding-right: 20px;
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.encounter-champion p {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.progress {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    height: 25px;
+    width: 100px;
+}
+
+/* Phần Footer nha */
+#footer {
+    color: #E0E0E0;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-size: small;
+}
+
+#footer p{
+    margin-bottom: 0px;
+}
+/* -------------------------------Vinh */
+#likeandcom{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#like img{
+    height: 40px;
+    width: 45px;
+    cursor: pointer
+   
+}
+.nameco{
+    margin-left: 10px;
+    color:red;
+    font-weight: bold;
+}
+#commentuser p{
+    color:black
+}
+#comment{
+    background-color: white;
+    border: thin black solid;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* height: ; */
+}
+#commentuser{
+    font-size: 10pt;
+    height: 200px;
+    width: auto;
+    overflow-y: scroll;
+    border-bottom: black thin solid;
+}
+#commentuser img{
+    height: 20px;width: 20px;
+    border-radius: 50px;
+}
+#btn_cmt{
+    border-radius: 10px;
+    border:none;
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+#nd{
+    /* border-radius: 8px; */
+    width: 458px;
+    height: 60px;
+    font-size:10pt;
+}
+
+#body2 h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#body2 h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+/* BYMINH */
+
+.top button{
+    position: relative;
+    bottom: 740px;
+    left: 250px;
+    border-radius: 150px;
+    padding: 15px;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+#btn-top:hover {
+    transform: scale(1.5);
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.mid button{
+    position: relative;
+    bottom: 500px;
+    left: 550px;
+    font-weight: bold;
+    border-radius: 180px;
+    padding: 15px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    color: white
+}
+#btn-mid:hover {
+    transform: scale(1.5);
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.jungle button {
+    position: relative;
+    bottom: 680px;
+    left: 340px;
+    font-weight: bold;
+    border-radius: 180px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+
+#btn-jungle:hover {
+    transform: scale(1.5);
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+
+
+.ad button{
+    position: relative;
+    font-weight: bold;
+    bottom: 400px;
+    left: 900px;
+    border-radius: 180px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+#btn-ad:hover {
+    transform: scale(1.5);
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    border-radius: 180px;
+    
+}
+
+.support button{
+    position: relative;
+    bottom: 400px;
+    left: 900px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); 
+    border-radius: 180px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#btn-sp:hover {
+    transform: scale(1.5);
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); 
+    border-radius: 180px;
+}
+
+#mapImg {  
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-left: 0%;
+}
+
+#map1  {
+    display: flex;
+    justify-content: center;
+}
+
+#map1 button {
+    border-radius: 180px;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#map123:hover {
+    transform: scale(1.5);
+    background-image: linear-gradient(to right, #c471f5 0%, #fa71cd 100%);
+}
+
+#map{
+    padding: 0px;
+}
+
+
